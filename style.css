@@ -2,3 +2,7 @@ body { font-family: Arial, sans-serif; color: #222; background: #f5f7fa; margin:
 nav { background: #12355b; padding: 1rem; }
 nav a { color: #fff; margin-right: 1rem; text-decoration: none; }
 h1 { color: #12355b; text-align: center; }
+label { display: block; max-width: 500px; margin: 1rem auto 0.25rem; font-weight: bold; color: #12355b; }
+input, textarea { display: block; box-sizing: border-box; width: 100%; max-width: 500px; margin: 0 auto; padding: 0.5rem; font: inherit; border: 1px solid #ccc; border-radius: 4px; }
+textarea { min-height: 120px; resize: vertical; }
+button { display: block; margin: 1rem auto; padding: 0.5rem 1.5rem; font: inherit; color: #fff; background: #12355b; border: none; border-radius: 4px; cursor: pointer; }
