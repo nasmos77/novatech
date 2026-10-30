@@ -10,3 +10,9 @@
 ## Mission 8
 - Commande : `git reset HEAD~1` (équivalent de `git reset --mixed HEAD~1`).
 - Les modifications sont toujours présentes car reset déplace la branche sur le commit précédent et vide le staging.
+
+## Mission 9
+- Commande : `git revert HEAD`.
+- Le commit étant déjà récupéré par l'équipe, il ne faut pas réécrire l'historique.
+- Revert ajoute un nouveau commit qui applique l'inverse et conserve `Ajout promotion`.
+- En mission 8, le commit n'était partagé avec personne : le retirer avec reset ne gênait personne.
