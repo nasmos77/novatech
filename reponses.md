@@ -6,3 +6,7 @@
 3. Nombre actuel de commits : 8
 4. Historique sous forme graphique : `git log --oneline --graph --all --decorate`
 5. Examen d'un commit de la fonctionnalité Contact : `git show <id>`
+
+## Mission 8
+- Commande : `git reset HEAD~1` (équivalent de `git reset --mixed HEAD~1`).
+- Les modifications sont toujours présentes car reset déplace la branche sur le commit précédent et vide le staging.
