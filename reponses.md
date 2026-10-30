@@ -21,3 +21,13 @@
 - Commit récupéré : `<5a747ff>` sur test/experimentations (`<b3be67e9ae3daf3ddbe3e717d3bc4b387f6a2380>` sur main).
 - Une fusion classique aurait aussi apporté les commits 1 et 3 (couleurs expérimentales et
   texte de test), qui ne doivent pas arriver sur la branche principale.
+
+## Mission 12
+- Le 1 de gauche (majeur) : changements importants, potentiellement incompatibles.
+- Le 0 du milieu (mineur) : nouvelles fonctionnalités compatibles.
+- Le 0 de droite (correctif) : corrections de bugs compatibles.
+
+Versions suivantes à partir de 1.0.0 :
+- Correction de bug mineur : 1.0.1
+- Nouvelle fonctionnalité compatible : 1.1.0
+- Refonte majeure : 2.0.0
